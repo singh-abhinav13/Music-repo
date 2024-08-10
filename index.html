@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"
+    content="IE=Edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+
+  <title>Music player</title>
+
+  <link rel="stylesheet"
+    href="style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="box-contain">
+      <img src="images/music1.jpg">
+    </div>
+    <div class="title">
+      <h1 id="title">Dheere Dheere</h1>
+      <h4 id="artist">Yo Yo Honey Singh
+      </h4>
+    </div>
+    <div class="music">
+      <audio src="music/music1.mp3"
+        id="music-play"></audio>
+    </div>
+
+    <div class="progressBar"
+      id="progressContainer">
+      <div id="current-time">0:00</div>
+      <div id="duration">3:33</div>
+    </div>
+    <div class="progressDiv"
+      id="progressDiv">
+      <div class="progress"
+        id="progress"></div>
+    </div>
+
+    <div class="music-player">
+      <i class="ri-skip-left-fill"
+        id="prev" title="back"></i>
+
+      <i class="ri-play-circle-line"
+        id="play" title="play"></i>
+
+      <i class="ri-skip-right-fill"
+        id="next" title="next"></i>
+    </div>
+
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
